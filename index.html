@@ -2,15 +2,15 @@
 <body>
 <h3>Card number:</h3>
 <form method="post" action="/add_message">
-    <input type="text" name="message">
+    <input type="number" name="cardnumber" maxlength="15" placeholder="1234 1234 1234 1234">
     <button type="submit">submit</button>
 	<h3>Exp date:</h3>
 <form method="post" action="/add_message">
-    <input type="text" name="message">
+    <input type="text" name="exp" maxlength="5" placeholder="01/21">
     <button type="submit">submit</button>
 	<h3>CVV:</h3>
 <form method="post" action="/add_message">
-    <input type="text" name="message">
+    <input type="number" name="cvv" maxlength="3" placeholder="123">
     <button type="submit">submit</button>
 </form>
 </body>
