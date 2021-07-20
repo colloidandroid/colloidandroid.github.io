@@ -33,31 +33,31 @@ var app = express();
 //});
 
 //vgsForm.field('#cvv', {
-  type: 'card-security-code',
-  name: 'card_cvc',
-  successColor: '#4F8A10',
-  errorColor: '#D8000C',
-  placeholder: 'CVC',
-  maxLength: 3,
-  validations: ['required', 'validCardSecurityCode'],
-  css: css,
-});
+//  type: 'card-security-code',
+ // name: 'card_cvc',
+//  successColor: '#4F8A10',
+//  errorColor: '#D8000C',
+ // placeholder: 'CVC',
+ // maxLength: 3,
+ // validations: ['required', 'validCardSecurityCode'],
+ // css: css,
+//});
 
 //vgsForm.field('#expdate', {
-  type: 'card-expiration-date',
-  name: 'card_exp',
-  successColor: '#4F8A10',
-  errorColor: '#D8000C',
-  placeholder: 'MM / YY',
-  validations: ['required', 'validCardExpirationDate'],
-  css: css,
-});
+//  type: 'card-expiration-date',
+//  name: 'card_exp',
+//  successColor: '#4F8A10',
+//  errorColor: '#D8000C',
+ // placeholder: 'MM / YY',
+ // validations: ['required', 'validCardExpirationDate'],
+ // css: css,
+//});
 
 //form.submit('/post', {}, (status, response) => {
-   console.log(status, response);
- }, (error) => {
-    console.log(error);
- });
+ //  console.log(status, response);
+// }, (error) => {
+//    console.log(error);
+// });
 
 // load script
 // const collect = await loadVGSCollect({
