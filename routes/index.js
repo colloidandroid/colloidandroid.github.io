@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.post('https://tntkn4ugi9r.SANDBOX.verygoodproxy.com/post', function(req, res, next) {
   /* res.render('form-submit', { query: req.body });  */
-    res.redirect(307, '/form-submit');
+    res.redirect(307, '/form-submit' => res.render('form-submit', { query: req.body }));
 
 });
 
