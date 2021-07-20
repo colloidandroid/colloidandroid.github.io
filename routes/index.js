@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  res.render('form-submit', { query: req.body });
+  res.render('form-submit', { title: 'Express' }); /*{ query: req.body }); */
 });
 
 
